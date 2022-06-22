@@ -13,7 +13,8 @@ jobs:
   build:
     runs-on: windows-latest
     defaults:
-      working-directory: ./ImageResizeWebApp
+      run:
+        working-directory: ./ImageResizeWebApp
 
     steps:
       - uses: actions/checkout@v2
